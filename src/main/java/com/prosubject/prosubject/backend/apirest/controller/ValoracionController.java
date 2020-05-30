@@ -29,7 +29,7 @@ import com.prosubject.prosubject.backend.apirest.service.ValoracionService;
 
 @RestController
 @RequestMapping("/api/valoraciones")
-@CrossOrigin(origins = { "http://localhost:4200", "https://prosubject-lanzamiento.herokuapp.com" })
+@CrossOrigin(origins = { "http://localhost:4200", "https://prosubject-final.herokuapp.com" })
 public class ValoracionController {
 	
 	@Autowired
