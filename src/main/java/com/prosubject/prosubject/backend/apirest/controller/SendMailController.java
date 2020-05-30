@@ -17,7 +17,7 @@ import com.prosubject.prosubject.backend.apirest.service.SendMailService;
 
 @RestController
 @RequestMapping("/api/mail")
-@CrossOrigin(origins = { "http://localhost:4200", "https://prosubject-lanzamiento.herokuapp.com" })
+@CrossOrigin(origins = { "http://localhost:4200", "https://prosubject-final.herokuapp.com" })
 public class SendMailController {
 
 	@Autowired
