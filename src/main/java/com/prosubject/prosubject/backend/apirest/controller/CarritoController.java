@@ -25,7 +25,7 @@ import com.prosubject.prosubject.backend.apirest.service.HorarioService;
 
 @RestController
 @RequestMapping("/api/carrito")
-@CrossOrigin(origins = {"http://localhost:4200", "https://prosubject-lanzamiento.herokuapp.com"})
+@CrossOrigin(origins = {"http://localhost:4200", "https://prosubject-final.herokuapp.com"})
 public class CarritoController {
 
 	@Autowired
