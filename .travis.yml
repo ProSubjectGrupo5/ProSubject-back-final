@@ -16,7 +16,7 @@ install:
 - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 before_install:
 - chmod +x mvnw 
-- psql -c 'create database d84fcuj7llju5i;' -U postgres
+- psql -c 'create database dcu1a62i6ms7i4;' -U postgres
 on:
     branch: master
 
